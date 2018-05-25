@@ -11,29 +11,19 @@
 
 .Currency__details {
   display: flex;
+  flex-direction: column;
+  font-size: 10px;
 }
 
 @media (max-width: 640px) {
   .Currencies__grid {
     width: 350px;
   }
-
-  .Currency__details {
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
-  }
 }
 
 @media (max-width: 1280px) {
   .Currencies__grid {
     width: 500px;
-  }
-
-  .Currency__details {
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
   }
 }
 
