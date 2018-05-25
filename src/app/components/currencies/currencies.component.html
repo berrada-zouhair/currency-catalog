@@ -1,0 +1,11 @@
+<h1>Available currencies</h1>
+<mat-grid-list cols="2" rowHeight="80px" class="Currencies__grid">
+  <mat-grid-tile
+    [routerLink]="'/currency/'+c.id"
+    class="Currencies__element"
+    *ngFor="let c of currencies"
+    colspan="1"
+    rowspan="1">
+    ID:{{c.id}}&nbsp;&nbsp;Type:{{c.currency_type}}&nbsp;&nbsp;National Symbol:{{c.native_symbol}}
+  </mat-grid-tile>
+</mat-grid-list>
