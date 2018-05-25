@@ -1,0 +1,8 @@
+{
+  "/v1/currencies": {
+    "target": "https://api.openfintech.io/v1/currencies",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
