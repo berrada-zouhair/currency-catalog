@@ -1,8 +1,8 @@
 import {Injectable} from '@angular/core';
 import {Currency} from '../models/currency';
 import {HttpClient} from '@angular/common/http';
-import {Observable} from "rxjs/index";
-import {CurrenciesMock} from "../models/currencies-mock";
+import {Observable} from 'rxjs/index';
+import {CurrenciesMock} from '../models/currencies-mock';
 
 @Injectable({
   providedIn: 'root'
