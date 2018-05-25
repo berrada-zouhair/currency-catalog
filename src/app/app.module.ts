@@ -7,6 +7,7 @@ import { CurrenciesComponent } from './components/currencies/currencies.componen
 import {RouterModule, Routes} from '@angular/router';
 import {MatButtonModule, MatGridListModule} from '@angular/material';
 import {HttpClientModule} from "@angular/common/http";
+import {AngularPaginatorModule} from "angular-paginator";
 
 const routes: Routes = [
   {path: 'currencies', component: CurrenciesComponent},
@@ -25,6 +26,7 @@ const routes: Routes = [
     MatGridListModule,
     MatButtonModule,
     HttpClientModule,
+    AngularPaginatorModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],
